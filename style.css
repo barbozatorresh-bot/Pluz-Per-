@@ -6,7 +6,7 @@ font-family:Arial;
 }
 
 header{
-background:#0a43c0;
+background:#00309d;
 padding:20px 60px;
 display:flex;
 justify-content:space-between;
@@ -24,7 +24,7 @@ margin-left:25px;
 }
 
 .hero{
-background:#0a43c0;
+background:#00309d;
 color:white;
 display:flex;
 align-items:center;
@@ -81,7 +81,7 @@ background:#f2f2f2;
 .noticias h2{
 font-size:50px;
 margin-bottom:30px;
-color:#0a43c0;
+color:#00309d;
 }
 
 .grid{
@@ -104,7 +104,7 @@ align-items:center;
 }
 
 .app h2{
-color:#0a43c0;
+color:#00309d;
 }
 
 .app img{
@@ -112,7 +112,7 @@ width:300px;
 }
 
 footer{
-background:#082f87;
+background:#00309d;
 color:white;
 padding:40px;
 text-align:center;
