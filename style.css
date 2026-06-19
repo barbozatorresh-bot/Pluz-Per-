@@ -1,1 +1,113 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
+}
 
+header{
+background:#0047cc;
+padding:20px 60px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+height:50px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:25px;
+}
+
+.hero{
+background:#0047cc;
+color:white;
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:70px;
+}
+
+.hero h1{
+font-size:60px;
+}
+
+.hero p{
+margin:20px 0;
+font-size:24px;
+}
+
+button{
+padding:15px 30px;
+border:none;
+border-radius:8px;
+cursor:pointer;
+}
+
+.secundario{
+background:transparent;
+border:1px solid white;
+color:white;
+}
+
+.imagen img{
+width:500px;
+}
+
+.cards{
+display:flex;
+gap:30px;
+padding:40px;
+background:#f2f2f2;
+}
+
+.card{
+background:white;
+padding:40px;
+flex:1;
+border-radius:15px;
+text-align:center;
+}
+
+.noticias{
+padding:50px;
+}
+
+.noticias h2{
+font-size:50px;
+margin-bottom:30px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:20px;
+}
+
+.noticia img{
+width:100%;
+border-radius:15px;
+}
+
+.app{
+background:#eef5ff;
+padding:50px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.app img{
+width:300px;
+}
+
+footer{
+background:#002766;
+color:white;
+padding:40px;
+text-align:center;
+}
