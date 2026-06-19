@@ -2,11 +2,16 @@
 margin:0;
 padding:0;
 box-sizing:border-box;
-font-family:Arial;
+font-family:Arial, sans-serif;
+}
+
+body{
+background:white;
+transition:0.4s;
 }
 
 header{
-background:#0047cc;
+background:#00369c;
 padding:20px 60px;
 display:flex;
 justify-content:space-between;
@@ -14,38 +19,65 @@ align-items:center;
 }
 
 .logo{
-height:50px;
+height:55px;
+}
+
+nav{
+display:flex;
+align-items:center;
+gap:30px;
 }
 
 nav a{
 color:white;
 text-decoration:none;
-margin-left:25px;
+font-size:18px;
+}
+
+#darkBtn{
+background:white;
+border:none;
+padding:8px 12px;
+border-radius:8px;
+cursor:pointer;
 }
 
 .hero{
-background:#0047cc;
+background:#00369c;
 color:white;
 display:flex;
-align-items:center;
 justify-content:space-between;
-padding:70px;
+align-items:center;
+padding:60px 70px;
+gap:40px;
+}
+
+.texto{
+max-width:500px;
 }
 
 .hero h1{
-font-size:60px;
+font-size:72px;
+line-height:1.05;
+margin-bottom:20px;
 }
 
 .hero p{
-margin:20px 0;
-font-size:24px;
+font-size:22px;
+margin-bottom:25px;
+}
+
+.botones{
+display:flex;
+gap:15px;
 }
 
 button{
-padding:15px 30px;
+padding:15px 28px;
 border:none;
-border-radius:8px;
+border-radius:10px;
 cursor:pointer;
+font-size:16px;
 }
 
 .secundario{
@@ -54,60 +86,53 @@ border:1px solid white;
 color:white;
 }
 
+.imagen{
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
 .imagen img{
 width:500px;
+max-width:100%;
+border-radius:0;
 }
 
 .cards{
+background:#ececec;
+padding:40px;
 display:flex;
 gap:30px;
-padding:40px;
-background:#f2f2f2;
+justify-content:center;
 }
 
 .card{
 background:white;
 padding:40px;
-flex:1;
-border-radius:15px;
-text-align:center;
-}
-
-.noticias{
-padding:50px;
-}
-
-.noticias h2{
-font-size:50px;
-margin-bottom:30px;
-}
-
-.grid{
-display:grid;
-grid-template-columns:repeat(3,1fr);
-gap:20px;
-}
-
-.noticia img{
-width:100%;
-border-radius:15px;
-}
-
-.app{
-background:#eef5ff;
-padding:50px;
-display:flex;
-justify-content:space-between;
-align-items:center;
-}
-
-.app img{
 width:300px;
+text-align:center;
+border-radius:20px;
+font-size:20px;
+font-weight:bold;
 }
 
-footer{
-background:#002766;
+/* MODO OSCURO */
+
+.dark{
+background:#121212;
 color:white;
-padding:40px;
-text-align:center;
+}
+
+.dark .cards{
+background:#1e1e1e;
+}
+
+.dark .card{
+background:#2a2a2a;
+color:white;
+}
+
+.dark header,
+.dark .hero{
+background:#001f5c;
 }
